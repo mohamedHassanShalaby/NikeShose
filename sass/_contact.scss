@@ -1,0 +1,45 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.contact h2 {
+    font-size: 40px;
+    width: 30%;
+}
+.contact span {
+    color: #ff6452;
+    line-height: 1.7;
+}
+.contact .sign {
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact input {
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.contact button {
+    position: absolute;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #ff6452;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

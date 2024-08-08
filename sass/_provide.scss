@@ -1,0 +1,43 @@
+.provide {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.provide .left h2 {
+  margin: 30px 0;
+  font-size: 50px;
+}
+.provide .left span {
+  color: #ff6452;
+}
+.provide .left p {
+  color: #777;
+  line-height: 1.7;
+  width: 70%;
+  margin: 30px 0;
+}
+.provide .left p:first-of-type {
+  margin: 30px 0;
+}
+.provide .left button {
+  background-color: #ff6452;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  -ms-border-radius: 20;
+  -o-border-radius: 20;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.provide .left button:hover {
+  background-color: #fff;
+  color: #ff6452;
+}

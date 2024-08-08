@@ -1,0 +1,90 @@
+.underHeader {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.underHeader .left h4 {
+  color: #ff6452;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.underHeader .left h2 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.underHeader .left h2 span {
+  color: #ff6452;
+}
+.underHeader .left p {
+  width: 80%;
+  color: #777;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+.underHeader .left button {
+  margin-bottom: 50px;
+  background-color: #ff6452;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.underHeader .left button:hover {
+  background-color: #fff;
+  color: #ff6452;
+}
+.underHeader .left .subscripe {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.underHeader .left .subscripe h3 {
+  font-size: 40px;
+  margin-right: 40px;
+}
+.underHeader .left .subscripe span {
+  color: #777;
+}
+
+.underHeader .right {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.underHeader .right .smImg {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.smImg img {
+  padding: 10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  height: 120px;
+  margin-right: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.smImg img:hover,
+.smImg img.active {
+    border: 1px solid #ff6452;
+}

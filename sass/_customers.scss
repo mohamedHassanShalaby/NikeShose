@@ -1,0 +1,38 @@
+.customers {
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+}
+.customers h2,
+.customers p.h2 {
+    text-align: center;
+}
+.customers p.h2 {
+    color: #777;
+    margin: 30px 0;
+    width: 40%;
+    margin: 20px auto;
+}
+.customers .customer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customers .box {
+    text-align: center;
+}
+.customers .box img {
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 20px auto;
+}
+.customers .box p {
+    color: #777;
+    margin-top: 30px;
+    width: 50%;
+    margin: auto;
+}
